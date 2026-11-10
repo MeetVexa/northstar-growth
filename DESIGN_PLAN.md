@@ -1,7 +1,6 @@
-# Northstar Growth — funnel design plan
-1. Position Northstar as a pragmatic Dubai property lead-generation partner, with transparent, no-guarantee language and clear agent-focused copy.
-2. Structure the landing page around one audit CTA: concise promise, three familiar lead-quality pains, three-step approach, clearly illustrative result scenarios/testimonials, FAQ, and repeated links to the audit.
-3. Build a focused audit booking page with name, email, phone, monthly ad budget, privacy/trust notes, and a thank-you route explaining next steps; use a functional client-side form flow without implying a real booking integration.
-4. Visual direction: deep midnight navy, restrained teal, warm off-white typography, crisp editorial headings, subtle grid/gradient motifs and custom CSS/SVG shapes; no supplied images/assets were found, so avoid generic stock imagery.
-5. Conversion and responsiveness: one primary CTA throughout, low-friction form, accessible labels/focus states, responsive mobile-first layouts and appropriately sized touch targets.
-6. QA gates: install dependencies, build production routes successfully, preview if available, clean `.next`, publish to GitHub, verify Vercel deployment is READY and confirm unauthenticated public 2xx access.
+# Northstar Growth visual refresh
+1. Retain all existing funnel copy, page structure, links and explicit preview-only form disclosures.
+2. Replace the teal/green tokens and accents across all three routes with a luminous midnight / icy-blue / silver palette and glossy glass surfaces.
+3. Add restrained dimensional highlights, luminous borders and soft multi-layer shadows; maintain accessible text contrast, keyboard focus and mobile-friendly touch sizes.
+4. Keep effects CSS-only and lightweight; no new image or runtime dependency.
+5. QA by checking all green-related color references, running the production build, then publish and verify the same public Vercel deployment URL.

@@ -2,9 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-:root { color-scheme: dark; --ink: #07151c; --panel: #0d2028; --teal: #66e2c5; --muted: #a4b5b9; }
+:root {
+  color-scheme: dark;
+  --ink: #080d1b;
+  --panel: #111b2d;
+  --ice: #c4e0ff;
+  --muted: #aebbd0;
+}
 html { scroll-behavior: smooth; }
-body { margin: 0; background: var(--ink); color: #f2f6f3; text-rendering: optimizeLegibility; }
-::selection { background: #66e2c5; color: #07151c; }
-.noise { background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.12'/%3E%3C/svg%3E"); }
-.focus-ring:focus-visible { outline: 2px solid var(--teal); outline-offset: 4px; }
+body {
+  margin: 0;
+  background: var(--ink);
+  color: #f3f6fc;
+  text-rendering: optimizeLegibility;
+}
+::selection { background: #b8d9ff; color: #08101f; }
+.focus-ring:focus-visible { outline: 2px solid var(--ice); outline-offset: 4px; }
+.neo-panel {
+  box-shadow: 12px 14px 34px rgba(0, 0, 0, .28), -7px -7px 26px rgba(116, 151, 204, .045), inset 0 1px 0 rgba(255,255,255,.055);
+}
+button[class*="bg-sky-200"], a[class*="bg-sky-200"] {
+  box-shadow: 0 0 28px rgba(142, 190, 255, .22), 0 12px 30px rgba(0,0,0,.38), inset 0 1px 0 rgba(255,255,255,.68);
+  position: relative;
+  overflow: hidden;
+}
+button[class*="bg-sky-200"]::before, a[class*="bg-sky-200"]::before {
+  content: "";
+  position: absolute;
+  inset: 1px 1px auto;
+  height: 45%;
+  border-radius: inherit;
+  background: linear-gradient(180deg, rgba(255,255,255,.32), rgba(255,255,255,0));
+  pointer-events: none;
+}
+input:focus-visible, select:focus-visible { outline: 2px solid var(--ice); outline-offset: 3px; }
+input, select { box-shadow: inset 4px 5px 12px rgba(0,0,0,.24), inset -2px -2px 8px rgba(132,164,211,.045); }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; }
+}

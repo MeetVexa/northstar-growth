@@ -1,6 +1,6 @@
-# Northstar Growth visual refresh
-1. Retain all existing funnel copy, page structure, links and explicit preview-only form disclosures.
-2. Replace the teal/green tokens and accents across all three routes with a luminous midnight / icy-blue / silver palette and glossy glass surfaces.
-3. Add restrained dimensional highlights, luminous borders and soft multi-layer shadows; maintain accessible text contrast, keyboard focus and mobile-friendly touch sizes.
-4. Keep effects CSS-only and lightweight; no new image or runtime dependency.
-5. QA by checking all green-related color references, running the production build, then publish and verify the same public Vercel deployment URL.
+# Northstar Growth light neumorphic correction
+1. Preserve all content, section order, links, scenario disclaimers, and the audit form's clear preview-only/no-storage notices.
+2. Replace dark surfaces throughout all routes with airy warm pearl and pale-blue-gray foundations; build a coherent light/dark soft-shadow system, large rounded surfaces, and clear icy blue/lavender/champagne accents.
+3. Give CTAs, navigation, cards, audit controls, and confirmation content a tactile raised/inset neumorphic treatment; tune typography and contrast for legibility.
+4. Add gentle staggered entrance/reveal, ambient glow, hover lift and press feedback; respect reduced-motion preferences and avoid heavy assets/scripts.
+5. Verify no dark navy/green remnants, production build/typecheck, all three public routes and preview disclosures; publish to same repo and verify Vercel READY/public 2xx.

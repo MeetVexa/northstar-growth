@@ -1,0 +1,335 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v20.19.2
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 3ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 5ms
+11 timing config:load:file:/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/.home/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 17ms
+17 timing npm:load:configload Completed in 17ms
+18 timing npm:load:mkdirpcache Completed in 1ms
+19 timing npm:load:mkdirplogs Completed in 1ms
+20 verbose title npm install
+21 verbose argv "install" "--no-audit"
+22 timing npm:load:setTitle Completed in 1ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 5ms
+25 verbose logfile logs-max:10 dir:/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/.home/.npm/_logs/2026-11-10T09_44_44_576Z-
+26 verbose logfile /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/.home/.npm/_logs/2026-11-10T09_44_44_576Z-debug-0.log
+27 timing npm:load:logFile Completed in 10ms
+28 timing npm:load:timers Completed in 1ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 37ms
+31 silly logfile done cleaning log files
+32 timing config:load:flatten Completed in 1ms
+33 timing arborist:ctor Completed in 2ms
+34 timing idealTree:init Completed in 207ms
+35 timing idealTree:userRequests Completed in 0ms
+36 silly idealTree buildDeps
+37 silly fetch manifest next@15.5.29
+38 timing arborist:ctor Completed in 1ms
+39 http fetch GET 200 https://registry.npmjs.org/next 723ms (cache miss)
+40 silly fetch manifest @opentelemetry/api@^1.1.0
+41 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 61ms (cache miss)
+42 silly fetch manifest @playwright/test@^1.51.1
+43 http fetch GET 200 https://registry.npmjs.org/@playwright%2ftest 179ms (cache miss)
+44 silly fetch manifest babel-plugin-react-compiler@*
+45 http fetch GET 200 https://registry.npmjs.org/babel-plugin-react-compiler 44ms (cache miss)
+46 silly fetch manifest react@19.0.0
+47 http fetch GET 200 https://registry.npmjs.org/react 146ms (cache miss)
+48 silly fetch manifest react-dom@19.0.0
+49 http fetch GET 200 https://registry.npmjs.org/react-dom 134ms (cache miss)
+50 silly fetch manifest sass@^1.3.0
+51 http fetch GET 200 https://registry.npmjs.org/sass 51ms (cache miss)
+52 silly placeDep ROOT next@15.5.29 REPLACE for:  want: 15.5.29
+53 silly fetch manifest @next/env@15.5.29
+54 silly fetch manifest @next/swc-darwin-x64@15.5.29
+55 silly fetch manifest @next/swc-darwin-arm64@15.5.29
+56 silly fetch manifest @next/swc-linux-x64-gnu@15.5.29
+57 silly fetch manifest @next/swc-linux-x64-musl@15.5.29
+58 silly fetch manifest @next/swc-win32-x64-msvc@15.5.29
+59 silly fetch manifest @next/swc-linux-arm64-gnu@15.5.29
+60 silly fetch manifest @next/swc-linux-arm64-musl@15.5.29
+61 silly fetch manifest @next/swc-win32-arm64-msvc@15.5.29
+62 http fetch GET 200 https://registry.npmjs.org/@next%2fenv 570ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-musl 740ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-arm64-msvc 758ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-musl 813ms (cache miss)
+66 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-arm64-gnu 834ms (cache miss)
+67 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-x64 859ms (cache miss)
+68 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-win32-x64-msvc 877ms (cache miss)
+69 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-darwin-arm64 951ms (cache miss)
+70 http fetch GET 200 https://registry.npmjs.org/@next%2fswc-linux-x64-gnu 1020ms (cache miss)
+71 timing idealTree:#root Completed in 3182ms
+72 silly placeDep ROOT @next/env@15.5.29 OK for: next@15.5.29 want: 15.5.29
+73 silly placeDep ROOT @next/swc-darwin-arm64@15.5.29 OK for: next@15.5.29 want: 15.5.29
+74 silly placeDep ROOT @next/swc-darwin-x64@15.5.29 OK for: next@15.5.29 want: 15.5.29
+75 silly placeDep ROOT @next/swc-linux-arm64-gnu@15.5.29 OK for: next@15.5.29 want: 15.5.29
+76 silly placeDep ROOT @next/swc-linux-arm64-musl@15.5.29 OK for: next@15.5.29 want: 15.5.29
+77 silly placeDep ROOT @next/swc-linux-x64-gnu@15.5.29 OK for: next@15.5.29 want: 15.5.29
+78 silly placeDep ROOT @next/swc-linux-x64-musl@15.5.29 OK for: next@15.5.29 want: 15.5.29
+79 silly placeDep ROOT @next/swc-win32-arm64-msvc@15.5.29 OK for: next@15.5.29 want: 15.5.29
+80 silly placeDep ROOT @next/swc-win32-x64-msvc@15.5.29 OK for: next@15.5.29 want: 15.5.29
+81 timing idealTree:node_modules/next Completed in 39ms
+82 timing idealTree:node_modules/@next/env Completed in 1ms
+83 timing idealTree:node_modules/@next/swc-darwin-arm64 Completed in 0ms
+84 timing idealTree:node_modules/@next/swc-darwin-x64 Completed in 0ms
+85 timing idealTree:node_modules/@next/swc-linux-arm64-gnu Completed in 0ms
+86 timing idealTree:node_modules/@next/swc-linux-arm64-musl Completed in 0ms
+87 timing idealTree:node_modules/@next/swc-linux-x64-gnu Completed in 0ms
+88 timing idealTree:node_modules/@next/swc-linux-x64-musl Completed in 0ms
+89 timing idealTree:node_modules/@next/swc-win32-arm64-msvc Completed in 1ms
+90 timing idealTree:node_modules/@next/swc-win32-x64-msvc Completed in 0ms
+91 timing idealTree:buildDeps Completed in 3225ms
+92 timing idealTree:fixDepFlags Completed in 3ms
+93 timing idealTree Completed in 3442ms
+94 timing reify:loadTrees Completed in 3444ms
+95 timing reify:diffTrees Completed in 10ms
+96 silly reify mark retired [
+96 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/env'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-x64-gnu'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-x64-musl'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@swc/counter'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/busboy'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/next',
+101 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.bin/next'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/streamsearch'
+102 silly reify ]
+103 silly reify moves {
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/env': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/.env-xN3RpgtI',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-x64-gnu': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/.swc-linux-x64-gnu-dRCiSwTX',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-x64-musl': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/.swc-linux-x64-musl-yxKY876F',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@swc/counter': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@swc/.counter-OkUi3nhm',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/busboy': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.busboy-zlTe87L4',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/next': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.next-HY8ODob7',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.bin/next': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.bin/.next-TPKFkyL3',
+103 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/streamsearch': '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/.streamsearch-3GH0V4pj'
+103 silly reify }
+104 timing reify:retireShallow Completed in 11ms
+105 timing reify:createSparse Completed in 7ms
+106 timing reify:loadBundles Completed in 0ms
+107 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-win32-x64-msvc
+108 silly reify mark deleted [
+108 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-win32-x64-msvc'
+108 silly reify ]
+109 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-win32-arm64-msvc
+110 silly reify mark deleted [
+110 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-win32-arm64-msvc'
+110 silly reify ]
+111 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-arm64-musl
+112 silly reify mark deleted [
+112 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-arm64-musl'
+112 silly reify ]
+113 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-arm64-gnu
+114 silly reify mark deleted [
+114 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-linux-arm64-gnu'
+114 silly reify ]
+115 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-darwin-x64
+116 silly reify mark deleted [
+116 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-darwin-x64'
+116 silly reify ]
+117 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-darwin-arm64
+118 silly reify mark deleted [
+118 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@next/swc-darwin-arm64'
+118 silly reify ]
+119 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/fsevents
+120 silly reify mark deleted [
+120 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/fsevents'
+120 silly reify ]
+121 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-x64
+122 silly reify mark deleted [
+122 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-x64'
+122 silly reify ]
+123 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-ia32
+124 silly reify mark deleted [
+124 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-ia32'
+124 silly reify ]
+125 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-arm64
+126 silly reify mark deleted [
+126 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-win32-arm64'
+126 silly reify ]
+127 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-wasm32
+128 silly reify mark deleted [
+128 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-wasm32'
+128 silly reify ]
+129 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@emnapi/runtime
+130 silly reify mark deleted [
+130 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@emnapi/runtime'
+130 silly reify ]
+131 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linuxmusl-arm64
+132 silly reify mark deleted [
+132 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linuxmusl-arm64'
+132 silly reify ]
+133 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-s390x
+134 silly reify mark deleted [
+134 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-s390x'
+134 silly reify ]
+135 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-riscv64
+136 silly reify mark deleted [
+136 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-riscv64'
+136 silly reify ]
+137 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-ppc64
+138 silly reify mark deleted [
+138 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-ppc64'
+138 silly reify ]
+139 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-arm64
+140 silly reify mark deleted [
+140 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-arm64'
+140 silly reify ]
+141 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-arm
+142 silly reify mark deleted [
+142 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-linux-arm'
+142 silly reify ]
+143 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linuxmusl-arm64
+144 silly reify mark deleted [
+144 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+144 silly reify ]
+145 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-s390x
+146 silly reify mark deleted [
+146 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-s390x'
+146 silly reify ]
+147 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-riscv64
+148 silly reify mark deleted [
+148 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-riscv64'
+148 silly reify ]
+149 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-ppc64
+150 silly reify mark deleted [
+150 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-ppc64'
+150 silly reify ]
+151 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-arm64
+152 silly reify mark deleted [
+152 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-arm64'
+152 silly reify ]
+153 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-arm
+154 silly reify mark deleted [
+154 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-linux-arm'
+154 silly reify ]
+155 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-darwin-x64
+156 silly reify mark deleted [
+156 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-darwin-x64'
+156 silly reify ]
+157 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-darwin-arm64
+158 silly reify mark deleted [
+158 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-libvips-darwin-arm64'
+158 silly reify ]
+159 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-darwin-x64
+160 silly reify mark deleted [
+160 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-darwin-x64'
+160 silly reify ]
+161 verbose reify failed optional dependency /var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-darwin-arm64
+162 silly reify mark deleted [
+162 silly reify   '/var/lib/vexa-web-studio/web-db031ab8-3148-436a-af21-0c095ea47f4b/node_modules/@img/sharp-darwin-arm64'
+162 silly reify ]
+163 timing reifyNode:node_modules/@next/swc-win32-x64-msvc Completed in 12ms
+164 timing reifyNode:node_modules/@next/swc-win32-arm64-msvc Completed in 13ms
+165 timing reifyNode:node_modules/@next/swc-linux-arm64-musl Completed in 13ms
+166 timing reifyNode:node_modules/@next/swc-linux-arm64-gnu Completed in 13ms
+167 timing reifyNode:node_modules/@next/swc-darwin-x64 Completed in 13ms
+168 timing reifyNode:node_modules/@next/swc-darwin-arm64 Completed in 13ms
+169 timing reifyNode:node_modules/fsevents Completed in 13ms
+170 timing reifyNode:node_modules/@img/sharp-win32-x64 Completed in 12ms
+171 timing reifyNode:node_modules/@img/sharp-win32-ia32 Completed in 12ms
+172 timing reifyNode:node_modules/@img/sharp-win32-arm64 Completed in 12ms
+173 timing reifyNode:node_modules/@img/sharp-wasm32 Completed in 12ms
+174 timing reifyNode:node_modules/@img/sharp-linuxmusl-arm64 Completed in 12ms
+175 timing reifyNode:node_modules/@img/sharp-linux-s390x Completed in 12ms
+176 timing reifyNode:node_modules/@img/sharp-linux-riscv64 Completed in 12ms
+177 timing reifyNode:node_modules/@img/sharp-linux-ppc64 Completed in 12ms
+178 timing reifyNode:node_modules/@img/sharp-linux-arm64 Completed in 13ms
+179 timing reifyNode:node_modules/@img/sharp-linux-arm Completed in 13ms
+180 timing reifyNode:node_modules/@img/sharp-libvips-linuxmusl-arm64 Completed in 13ms
+181 timing reifyNode:node_modules/@img/sharp-libvips-linux-s390x Completed in 13ms
+182 timing reifyNode:node_modules/@img/sharp-libvips-linux-riscv64 Completed in 13ms
+183 timing reifyNode:node_modules/@img/sharp-libvips-linux-ppc64 Completed in 13ms
+184 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm64 Completed in 13ms
+185 timing reifyNode:node_modules/@img/sharp-libvips-linux-arm Completed in 13ms
+186 timing reifyNode:node_modules/@img/sharp-libvips-darwin-x64 Completed in 13ms
+187 timing reifyNode:node_modules/@img/sharp-libvips-darwin-arm64 Completed in 13ms
+188 timing reifyNode:node_modules/@img/sharp-darwin-x64 Completed in 13ms
+189 timing reifyNode:node_modules/@img/sharp-darwin-arm64 Completed in 13ms
+190 silly tarball no local data for @emnapi/runtime@https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz. Extracting by manifest.
+191 silly tarball no local data for next@https://registry.npmjs.org/next/-/next-15.5.29.tgz. Extracting by manifest.
+192 silly tarball no local data for @next/swc-linux-x64-musl@https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.5.29.tgz. Extracting by manifest.
+193 silly tarball no local data for @next/swc-linux-x64-gnu@https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.5.29.tgz. Extracting by manifest.
+194 silly tarball no local data for @next/env@https://registry.npmjs.org/@next/env/-/env-15.5.29.tgz. Extracting by manifest.
+195 http fetch GET 200 https://registry.npmjs.org/@next/env/-/env-15.5.29.tgz 341ms (cache miss)
+196 timing reifyNode:node_modules/@next/env Completed in 368ms
+197 http fetch GET 200 https://registry.npmjs.org/@emnapi/runtime/-/runtime-1.11.3.tgz 961ms (cache miss)
+198 timing reifyNode:node_modules/@emnapi/runtime Completed in 992ms
+199 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-15.5.29.tgz 9669ms (cache miss)
+200 timing reifyNode:node_modules/@next/swc-linux-x64-musl Completed in 9695ms
+201 http fetch GET 200 https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-15.5.29.tgz 9718ms (cache miss)
+202 timing reifyNode:node_modules/@next/swc-linux-x64-gnu Completed in 9743ms
+203 http fetch GET 200 https://registry.npmjs.org/next/-/next-15.5.29.tgz 15373ms (cache miss)
+204 timing reifyNode:node_modules/next Completed in 15395ms
+205 timing reify:unpack Completed in 15398ms
+206 timing reify:unretire Completed in 3ms
+207 timing build:queue Completed in 3ms
+208 timing build:link:node_modules/next Completed in 4ms
+209 timing build:link Completed in 4ms
+210 timing build:deps Completed in 8ms
+211 timing build Completed in 8ms
+212 timing reify:build Completed in 9ms
+213 timing reify:trash Completed in 534ms
+214 timing reify:save Completed in 91ms
+215 timing reify Completed in 19541ms
+216 silly ADD
+217 silly ADD
+218 silly ADD
+219 silly ADD
+220 silly ADD
+221 silly ADD
+222 silly ADD
+223 silly ADD
+224 silly ADD
+225 silly ADD
+226 silly ADD
+227 silly ADD
+228 silly ADD
+229 silly ADD
+230 silly ADD
+231 silly ADD
+232 silly ADD
+233 silly ADD
+234 silly ADD
+235 silly ADD
+236 silly ADD
+237 silly ADD
+238 silly ADD
+239 silly ADD
+240 silly ADD
+241 silly ADD
+242 silly ADD
+243 silly ADD
+244 silly REMOVE node_modules/streamsearch
+245 silly CHANGE node_modules/next
+246 silly REMOVE node_modules/busboy
+247 silly REMOVE node_modules/@swc/counter
+248 silly CHANGE node_modules/@next/swc-linux-x64-musl
+249 silly CHANGE node_modules/@next/swc-linux-x64-gnu
+250 silly CHANGE node_modules/@next/env
+251 timing command:install Completed in 19557ms
+252 verbose exit 0
+253 timing npm Completed in 19626ms
+254 info ok
